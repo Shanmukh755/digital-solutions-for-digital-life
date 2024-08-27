@@ -1,0 +1,49 @@
+.app-logo{
+    height: 60px;
+}
+.toggle-btn{
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}
+.toggle{
+    font-size: 35px;
+    color: #ffffff;
+}
+.home-nav-link{
+    text-decoration: none;
+}
+.trans{
+    color: red;
+}
+.login-button{
+    background-color: rgb(47, 123, 255);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.logout-button{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(3, 173, 3);
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+@media (max-width: 400px){
+    .app-logo{
+        height: 42px;
+    }
+    .toggle{
+        font-size: 24px;
+    }
+}
+@media (min-width: 992px){
+    .toggle{
+        display: none;
+    }
+}

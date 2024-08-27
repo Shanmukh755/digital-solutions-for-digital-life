@@ -1,0 +1,39 @@
+.aboutus-container{
+    background-color: rgb(20, 20, 20);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.about-head{
+    background-image: linear-gradient(to right, rgb(98, 243, 231), rgb(42, 156, 201), rgb(108, 74, 202), rgb(209, 73, 221), orange, yellow); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    font-size: 40px;
+    align-self: center;
+    margin-top: 0;
+}
+p{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+@media (max-width: 568px){
+    .aboutus-container{
+        margin: 0;
+        padding: 1.4rem;
+    }
+    .about-head{
+        font-size: 24px;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+@media (min-width: 568px) and (max-width: 768px){
+    p{
+        font-size: 1rem;
+    }
+}

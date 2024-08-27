@@ -1,0 +1,100 @@
+.service-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(20, 20, 20);
+    max-width: 100%;
+}
+.services-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1.5rem 0rem 0rem 0rem;
+    padding: 0;
+    list-style: none;
+}
+.service-item-container{
+    width: 280px;
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 2.5rem;
+    border-radius: 5px;
+}
+.service-item-container:hover{
+    box-shadow: 0px 5px 25px rgb(133, 111, 211);
+}
+.serv-img{
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.service-type{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+}
+.service-name{
+    text-align: center;
+    color: #ffffff;
+}
+.service-name:hover{
+    background-image: linear-gradient(to right, rgb(98, 243, 231), rgb(42, 156, 201), rgb(108, 74, 202), rgb(209, 73, 221), orange, yellow); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    align-self: center;
+    margin-top: 0;
+}
+.nav-link{
+    text-decoration: none;
+}
+@media (max-width: 340px){
+    .service-item-container{
+        width: 200px;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .serv-img{
+        height: 80px;
+        width: 80px;
+    }
+    .service-type{
+        width: 120px;
+    }
+    .service-name{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 341px) and (max-width: 567px){
+    .service-container{
+        padding: 1.4rem;
+        margin: 1.4rem;
+    }
+    .service-name{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 1080px){
+    .service-item-container{
+        width: 340px;
+    }
+    .serv-img{
+        width: 120px;
+        height: 120px;
+    }
+    .service-type{
+        width: 220px;
+    }
+}

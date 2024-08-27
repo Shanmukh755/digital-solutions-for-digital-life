@@ -1,0 +1,24 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+  
+video {
+    object-fit: cover;
+    width: 100%;
+    max-height: 70vh;
+}
+@media (max-width: 568px){
+    
+    .video-container{
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}
+@media (min-width: 568px) and (max-width: 650px){
+    video{
+        width: 100%;
+    }
+}

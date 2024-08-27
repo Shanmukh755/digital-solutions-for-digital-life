@@ -1,0 +1,173 @@
+.follow-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 40px;
+    margin-right: 1.5rem;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 0;
+    display: none;
+}
+.each-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-name{
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.i-icon{
+    font-size: 1.5rem;
+    margin-right: 4px;
+}
+.address-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+.address-logo{
+    height: 80px;
+}
+.address-text{
+    color: black;
+    font-size: 1.2rem;
+}
+.ad-head{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ad-des{
+    color: black;
+    font-size: 1.2rem;
+}
+.address-left{
+    width: 30%;
+}
+.address-right{
+    width: 40%;
+}
+.end-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+.end-head{
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+@media (max-width: 568px){
+    .follow-container{
+        padding: 1.1rem 1.4rem;
+    }
+    .icons-container{
+        width: 100%;
+        margin-top: 0;
+        display: none;
+    }
+    .social-icon{
+        height: 25px;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+    }
+    .address-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.3rem;
+    }
+    .address-left{
+        width: 100%;
+    }
+    .address-right{
+        width: 100%;
+    }
+    .icon-name{
+        font-size: 0.9rem;
+    }
+    .i-icon{
+        font-size: 1.1rem;
+    }
+    .address-logo{
+        height: 45px;
+    }
+    .ad-head{
+        font-size: 0.9rem;
+    }
+    .ad-des{
+        font-size: 0.9rem;
+    }
+    .address-text{
+        font-size: 0.9rem;
+    }
+    .end-head{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 568px) and (max-width: 768px){
+    .icons-container{
+        width: 70%;
+        margin-top: 0;
+        display: none;
+    }
+    .social-icon{
+        height: 32px;
+        margin-right: 0.8rem;
+        margin-left: 0.8rem;
+    }
+    .address-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.3rem;
+    }
+    .address-left{
+        width: 45%;
+    }
+    .address-right{
+        width: 45%;
+    }
+    .icon-name{
+        font-size: 0.9rem;
+    }
+    .i-icon{
+        font-size: 1.1rem;
+    }
+    .address-logo{
+        height: 60px;
+    }
+    .ad-head{
+        font-size: 1rem;
+    }
+    .ad-des{
+        font-size: 1rem;
+    }
+    .address-text{
+        font-size: 1rem;
+    }
+}

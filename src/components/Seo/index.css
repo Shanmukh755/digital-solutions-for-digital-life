@@ -1,0 +1,121 @@
+.service-data-img1{
+    width: 250px;
+    min-height: 250px;
+}
+.goals-container{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 2rem;
+    padding: 2rem;
+}
+.goals-heading{
+    color: #ffffff;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.goals-list-container{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.goal-icon{
+    height: 80px;
+}
+.goal-item-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+.goal-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    width: 140px;
+}
+.goal-text:hover{
+    background-image: linear-gradient(to right, rgb(98, 243, 231), rgb(42, 156, 201), rgb(108, 74, 202), rgb(209, 73, 221), orange, yellow); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+@media (max-width: 567px){
+    .service-data-img1{
+        width: 100%;
+
+    }
+    .goals-container{
+        align-items: flex-start;
+        margin: 1.4rem;
+        padding: 1.4rem;
+    }
+    .goals-heading{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .goals-list-container{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+    }
+    .goal-item-cont{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .goal-icon{
+        height: 50px;
+        margin-right: 0.6rem;
+        margin-bottom: 0;
+    }
+    .goal-text{
+        width: 100%;
+        text-align: left;
+    }
+}
+@media (min-width: 568px) and (max-width: 768px){
+    .service-data-img1{
+        width: 500px;
+        max-height: 500px;
+    }
+    .goals-list-container{
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+    }
+    .goal-item-cont{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .goal-icon{
+        height: 60px;
+    }
+    .goal-text{
+        width: 100px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .goal-item-cont{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .goal-icon{
+        height: 60px;
+    }
+}

@@ -1,0 +1,35 @@
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.marquee {
+  padding-right: 20px; /* Adjust spacing between text */
+  display: inline-block;
+  white-space: nowrap; /* Prevents text from wrapping */
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
+
+span{
+    background-image: linear-gradient(to right, rgb(98, 243, 231), rgb(42, 156, 201), rgb(108, 74, 202), rgb(209, 73, 221), orange, yellow); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+@media (max-width: 568px){
+    span{
+        font-size: 25px;
+    }
+    .scroll-container{
+        margin-bottom: 0.7rem;
+    }
+}

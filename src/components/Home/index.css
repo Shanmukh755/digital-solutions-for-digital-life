@@ -1,0 +1,13 @@
+.bg-container{
+  background-color: black;
+  min-height: 100vh;
+  overflow: auto;
+  width: 100%;
+  padding-top: 5rem;
+}
+
+@media(max-width: 400px){
+    .bg-container{
+        padding-top: 4rem;
+    }
+}
